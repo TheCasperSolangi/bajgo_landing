@@ -27,7 +27,7 @@ export default function HeroSection() {
               <span className="text-yellow-300"> Sell Online</span>
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-red-100 leading-relaxed" data-testid="hero-subtitle">
-              Launch your e-commerce store in minutes, not months. Everything you need to sell online and grow your business.
+              Build your Online empire with instant delivery
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">

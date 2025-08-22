@@ -28,7 +28,9 @@ export default function Navigation() {
                   height={32}
                   className="mr-2"
                 />
-                <span className="text-2xl font-bold text-brand-red">Bajgo</span>
+                <span className="text-xl font-extrabold text-red-600 font-serif tracking-wide drop-shadow-lg">
+  Bajgo
+</span>
               </div>
             </Link>
           </div>

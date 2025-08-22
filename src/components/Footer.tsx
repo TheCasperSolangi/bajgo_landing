@@ -53,7 +53,7 @@ export default function Footer() {
                 height={24}
                 className="mr-2"
               />
-              Bajgo
+              BajGo
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6" data-testid="footer-description">
               Empowering entrepreneurs with powerful e-commerce tools.

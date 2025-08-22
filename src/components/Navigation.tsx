@@ -29,7 +29,7 @@ export default function Navigation() {
                   className="mr-2"
                 />
                 <span className="text-xl font-extrabold text-red-600 font-serif tracking-wide drop-shadow-lg">
-  Bajgo
+  BajGo
 </span>
               </div>
             </Link>

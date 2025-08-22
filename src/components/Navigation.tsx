@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Store, Menu, X } from "lucide-react";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -20,10 +20,16 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link href="/">
-            <div className="text-2xl font-bold text-brand-red">
-              <Store className="inline mr-2" size={24} />
-              Bajgo
-            </div>
+              <div className="flex items-center">
+                <Image 
+                  src="/logo.png" // Update this path to your actual logo file
+                  alt="Bajgo Logo"
+                  width={32}
+                  height={32}
+                  className="mr-2"
+                />
+                <span className="text-2xl font-bold text-brand-red">Bajgo</span>
+              </div>
             </Link>
           </div>
           

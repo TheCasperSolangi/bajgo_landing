@@ -1,4 +1,5 @@
-import { Store, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import Image from "next/image";
 
 const footerSections = [
   {
@@ -6,13 +7,11 @@ const footerSections = [
     links: [
       { name: "Features", href: "/features" },
       { name: "Pricing", href: "/pricing" },
- 
     ],
   },
   {
     title: "Support",
     links: [
-  
       { name: "Contact Us", href: "/contact" },
       { name: "Careers", href: "/careers" },
     ],
@@ -47,7 +46,13 @@ export default function Footer() {
               className="text-2xl font-bold mb-4 text-red-500 flex items-center"
               data-testid="footer-logo"
             >
-              <Store className="mr-2" size={24} />
+              <Image 
+                src="/logo.png" // Update this path to your actual logo file
+                alt="Bajgo Logo"
+                width={24}
+                height={24}
+                className="mr-2"
+              />
               Bajgo
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6" data-testid="footer-description">

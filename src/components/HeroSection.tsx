@@ -23,8 +23,8 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6" data-testid="hero-title">
-              Build Your Online 
-              <span className="text-yellow-300"> Empire</span>
+              Everyone Can  
+              <span className="text-yellow-300"> Sell Online</span>
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-red-100 leading-relaxed" data-testid="hero-subtitle">
               Launch your e-commerce store in minutes, not months. Everything you need to sell online and grow your business.

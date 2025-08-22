@@ -101,7 +101,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-gray-500 text-sm" data-testid="footer-copyright">
-            © 2024 Bajgo. All rights reserved.
+            © 2025 Bajgo. All rights reserved.
           </p>
           
           <div className="text-gray-500 text-xs">

@@ -6,10 +6,10 @@ import { Check } from "lucide-react";
 const pricingTiers = [
   {
     name: "Starter",
-    price: 29,
-    description: "Perfect for new businesses",
+    price: 99,
+    description: "Perfect for Small Vendors",
     features: [
-      "Up to 100 products",
+      "Up to 30 products",
       "2GB storage",
       "Basic analytics",
       "Email support",
@@ -19,11 +19,11 @@ const pricingTiers = [
     buttonVariant: "outline" as const,
   },
   {
-    name: "Professional",
-    price: 79,
-    description: "For growing businesses",
+    name: "BizGro",
+    price: 199,
+    description: "For growing businesses and startups",
     features: [
-      "Unlimited products",
+      "Upto 100 Products",
       "20GB storage",
       "Advanced analytics",
       "Priority support",
@@ -35,14 +35,15 @@ const pricingTiers = [
   },
   {
     name: "Enterprise",
-    price: 199,
+    price: 399,
     description: "For large-scale operations",
     features: [
       "Everything in Professional",
       "Unlimited storage",
       "White-label options",
       "Dedicated account manager",
-      "API access",
+      "API access (subject to use cases)",
+      "Unlimited Products"
     ],
     popular: false,
     buttonText: "Contact Sales",
@@ -91,7 +92,7 @@ export default function PricingSection() {
                     {tier.name}
                   </h3>
                   <div className="text-4xl font-bold text-brand-red mb-2" data-testid={`tier-price-${index}`}>
-                    ${tier.price}
+                    {tier.price}
                     <span className="text-lg text-gray-500 font-normal">/month</span>
                   </div>
                   <p className="text-gray-600" data-testid={`tier-description-${index}`}>

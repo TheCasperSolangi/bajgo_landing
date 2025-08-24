@@ -24,8 +24,8 @@ const features = [
   },
   {
     icon: Truck,
-    title: "Shipping Management",
-    description: "Integrate with major carriers for real-time rates, tracking, and automated label printing.",
+    title: "Lalamove Integration",
+    description: "We have Partnered with Lalamove to provide the best logistics support",
   },
   {
     icon: Headphones,

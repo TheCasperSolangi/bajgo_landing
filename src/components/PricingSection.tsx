@@ -91,7 +91,7 @@ export default function PricingSection() {
                     {tier.name}
                   </h3>
                   <div className="text-4xl font-bold text-brand-red mb-2" data-testid={`tier-price-${index}`}>
-                    {tier.price}
+                   RM {tier.price}
                     <span className="text-lg text-gray-500 font-normal">/month</span>
                   </div>
                   <p className="text-gray-600" data-testid={`tier-description-${index}`}>

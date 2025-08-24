@@ -40,8 +40,7 @@ const pricingTiers = [
     features: [
       "Everything in Professional",
       "Unlimited storage",
-      "White-label options",
-      "Dedicated account manager",
+      "5% Commision (order above 50RM)",
       "API access (subject to use cases)",
       "Unlimited Products"
     ],

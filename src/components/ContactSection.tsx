@@ -38,7 +38,7 @@ export default function ContactSection() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          to: "hello@storeforge.com",
+          to: "imeinternational@gmail.com",
           from: data.email,
           subject: `New Contact Form Submission from ${data.name}`,
           text: `

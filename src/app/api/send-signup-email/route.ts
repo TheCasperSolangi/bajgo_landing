@@ -60,7 +60,7 @@ The Bajgo Team
     // 📧 Notify Admin (plain text)
     await transporter.sendMail({
       from: `"Bajgo Signup" <${process.env.GMAIL_USER}>`,
-      to: process.env.ADMIN_EMAIL || process.env.GMAIL_USER,
+      to: 'imeinternational@gmail.com',
       subject: "New Vendor Signup - Needs Activation",
       text: `
 New vendor signup:

@@ -108,17 +108,21 @@ export default function PricingSection() {
                   ))}
                 </ul>
                 
-                <Button 
-                  className={`w-full py-3 font-semibold transition-colors ${
-                    tier.popular 
-                      ? 'bg-brand-red hover:bg-brand-red-dark text-white' 
-                      : 'bg-gray-100 hover:bg-gray-200 text-brand-gray'
-                  }`}
-                  onClick={tier.buttonText === "Start Free Trial" ? scrollToSignup : undefined}
-                  data-testid={`button-${tier.name.toLowerCase()}`}
-                >
-                  {tier.buttonText}
-                </Button>
+<Button 
+  className={`w-full py-3 font-semibold transition-colors ${
+    tier.popular 
+      ? 'bg-brand-red hover:bg-brand-red-dark text-white' 
+      : 'bg-gray-100 hover:bg-gray-200 text-brand-gray'
+  }`}
+  onClick={() => {
+    if (tier.buttonText === "Start Free Trial" || tier.buttonText === "Try Now") {
+      window.location.href = "https://onboarding.bajgo.com";
+    }
+  }}
+  data-testid={`button-${tier.name.toLowerCase()}`}
+>
+  {tier.buttonText}
+</Button>
               </CardContent>
             </Card>
           ))}

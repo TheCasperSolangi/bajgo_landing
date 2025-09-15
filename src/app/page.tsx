@@ -15,7 +15,7 @@ export default function Home() {
    <>
    <Navigation />
    <HeroSection />
-   <QuickSignupForm />
+
    <FeaturesSection />
    <PricingSection />
    <TestimonialsSection />
